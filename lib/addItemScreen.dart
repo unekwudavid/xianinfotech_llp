@@ -70,7 +70,7 @@ class SaleScreen extends StatelessWidget {
 
                          ),
                         Padding(
-                          padding: EdgeInsets.only(right:58.0),
+                          padding: const EdgeInsets.only(right:58.0),
                           child: Column(
                             children: [
                               
@@ -91,12 +91,12 @@ class SaleScreen extends StatelessWidget {
                       ),
                 
             ),
-                SizedBox(height: 8),
+                const SizedBox(height: 8),
 
-            Divider(thickness: 1),
+            const Divider(thickness: 1),
 
                 // Firm Name
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Align(
                     alignment: Alignment.topLeft,
@@ -122,8 +122,8 @@ class SaleScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 5),
-  Divider(thickness: 1),
+                const SizedBox(height: 5),
+  const Divider(thickness: 1),
 
             ],
           ),
